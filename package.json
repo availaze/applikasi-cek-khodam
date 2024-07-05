@@ -1,0 +1,39 @@
+{
+  "name": "cek-khodam",
+  "version": "0.1.2",
+  "description": "Mau cek khodam? cek disini aja sama liat personality kamu hehe",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryeed/app-cek-khodam.git"
+  },
+  "build": {
+    "appId": "com.example.myapp",
+    "files": [
+      "preload/**/*",
+      "node_modules/**/*",
+      "public/**/*",
+      "feather/**/*"
+    ],
+    "win": {
+      "icon": "src/icon.ico"
+    }
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Cryeed, NochromeDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryeed/app-cek-khodam/issues"
+  },
+  "homepage": "https://github.com/cryeed/app-cek-khodam#readme",
+  "devDependencies": {
+    "electron": "^31.1.0",
+    "electron-builder": "^24.13.3"
+  }
+}

@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #101010;
+    overflow : hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#title-bar {
+    -webkit-app-region: drag; /* Allows dragging of the window */
+    height: 75px;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    z-index: 999;
+
+}
+.left {
+    display : flex;
+    align-items: center;
+    -webkit-app-region: no-drag;
+}
+.container-bar {
+    display : flex;
+    flex-direction: column;
+    cursor : pointer!important;
+    border-radius: 5px;
+    padding : 10px;
+    opacity: .9;
+    transition: all .2s ease-in-out;
+    
+}
+.container-bar:hover {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+::selection {
+    display : none;
+    pointer-events: none;
+}
+
+img, svg {
+    pointer-events: none;
+}
+
+.bar-1, .bar-2, .bar-3 {
+    background: #d6d6d6!important;
+    width: 25px;
+    height : 2px;
+    border : 1px solid #d6d6d6;
+    margin : 2.5px 0;
+    transition: all .5s ease-in-out;
+    cursor : pointer!important;
+}
+.bar-2 {
+    width: 20px;
+}
+.bar-3 {
+    width: 15px;
+}
+
+.bar-active .bar-2,
+.bar-active .bar-3 {
+    width: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.logo img {
+    width: 5%;
+}
+.logo .text {
+    color : white;
+    font-size: 1.25rem;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 2.5px;
+}
+.logo .madeby {
+    opacity: .5;
+    font-size: .85rem;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+.sidebar {
+    position : absolute;
+    left : 0;
+    top : 75px;
+    width: 20%;
+    height: 100%;
+    background: #141414;
+    transition: all .15s ease-in-out;
+}
+.sidebar-active {
+    left : -100%;
+    transition: all .15s ease-in-out;
+}
+.buttonContainer {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+button {
+    all : unset;
+}
+
+#title-bar span {
+    flex-grow: 1;
+}
+
+#title-bar button {
+    -webkit-app-region: no-drag; /* Exclude buttons from dragging */
+    border: none;
+    border-radius: 5px;
+    cursor : pointer;
+    border-radius : 2.5px;
+    margin : 10px;
+}
+
+#title-bar button:hover svg:not(.close) {
+    stroke: #d6d6d6;
+    transition: all .2s ease-in-out;
+}
+
+#title-bar button:hover .close {
+    stroke: #ff2424;
+    transition: all .2s ease-in-out;
+}
+
+#title-bar button svg {
+    transition: all .2s ease-in-out;
+}
+
+#content {
+    height: calc(100vh - 75px); /* Adjust for the custom title bar height */
+}
+.content {
+    display : flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding-top: 45px;
+    gap : 35px;
+    width: 100%;
+    padding-left: 20px;
+}
+.items > a {
+    color : white;
+    padding : 10px;
+    font-size : 1.1rem;
+    padding : 10px 25px;
+    border-radius: 100px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+    
+}
+.items > a:hover {
+    background : #ffffff0e;
+    transition: all .2s ease-in-out;
+}
+.main-body {
+    display : grid;
+    place-items: center;
+    margin-top : 10%;
+    width : 100%;
+}
+
+.centered-body {
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content : center;
+    gap : 5px 0;
+}
+
+.title {
+    color : white;
+    font-size : 2.25rem;
+}
+.khodam {
+    color : white;
+    font-size : 7.5rem;
+    font-weight: bold;
+}
+#title {
+    background: linear-gradient(to right, #ff0e26, #920816);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color : transparent;
+}
+
+.input {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap : 20px;
+    width : 100%;
+    margin-top : 50px;
+}
+
+.input input {
+    width : 50%;
+    padding : 10px 20px;
+    height: 25%;
+    font-size : 1.25rem;
+    background : #222;
+    border : 1px solid #333;
+    color : white;
+    border-radius : 5px;
+}
+.input button {
+    display : flex;
+    gap : 10px;
+    width: 25.5%;
+    height : 25px;
+    align-items: center;
+    background-color: #920816;
+    cursor : pointer;
+    padding : 10px 30px;
+    border-radius: 5px;
+    color : white;
+    text-align: center;
+    justify-content: center;
+}
+.input button .svg {
+    margin-top : 8.5px;
+}
