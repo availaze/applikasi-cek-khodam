@@ -16,7 +16,7 @@
   <a href="https://trakteer.id/nch.dev" target="_blank"><img src="https://img.shields.io/badge/Trakteer-Support%20Me-red.svg?style=for-the-badge" alt="trakteer"></a>
 </div>
   
-<br><br>
+<br>
 
 <p align="center">
   Applikasi Cek Khodam adalah alat interaktif yang memungkinkan Anda untuk memeriksa keberadaan dan jenis khodam yang mungkin menemani Anda. Dengan antarmuka yang ramah pengguna dan teknologi terkini dari Electron, aplikasi ini menawarkan pengalaman yang menghibur bagi para pengguna yang tertarik dengan dunia mistis.
