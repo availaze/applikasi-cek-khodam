@@ -5,22 +5,36 @@
   "main": "./main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder"
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cryeed/app-cek-khodam.git"
   },
   "build": {
-    "appId": "com.example.myapp",
+    "appId": "com.noochromedev.appcekkhodam",
+    "productName": "Applikasi Cek Khodam",
+    "directories": {
+      "output": "dist"
+    },
     "files": [
-      "preload/**/*",
+      "main.js",
+      "index.html",
       "node_modules/**/*",
+      "package.json",
+      "pacakge-lock.json",
+      "preload/**/*",
       "public/**/*",
-      "feather/**/*"
+      "feather/**/*",
+      "favicon.png"
     ],
     "win": {
-      "icon": "src/icon.ico"
+      "icon": "./favicon.png",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   },
   "keywords": [
