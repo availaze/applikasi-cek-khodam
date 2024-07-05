@@ -29,13 +29,20 @@ const cekKhodam = (nama) => {
         "Bagas Mejikom",
         "Pocong Elpiji",
         "Bloody Mary",
-        "Vampir",
+        "Vampir Sumatra",
         "Vampir Ireng",
         "Bagas Ambatron",
         "Udin Gorengan",
         "Bagus Elpiji",
         "Ultraman",
-        "Zombie Cikadap"
+        "Zombie Cikadap",
+        "Tidak Ada",
+        "Tidak Ada",
+        "Tidak Ada",
+        "Tidak Ada",
+        "Tidak Ada",
+        "Tidak Ada",
+        "Tidak Ada"
     ];
 
     // Ambil indeks acak dari namaKhodam
@@ -52,5 +59,4 @@ const cekKhodam = (nama) => {
 };
 minimize.addEventListener('click', minimizeWindow);
 closeApp.addEventListener('click', closeWindow);
-bar.onclick = () => openBar();
-submit.onclick = () => cekKhodam(input.value)
+submit.addEventListener('click', () => cekKhodam(input.value));

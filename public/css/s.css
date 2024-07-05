@@ -228,6 +228,10 @@ button {
     color : white;
     border-radius : 5px;
 }
+.input input:focus {
+    outline : none;
+    border : 1px solid #333;
+}
 .input button {
     display : flex;
     gap : 10px;
