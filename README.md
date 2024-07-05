@@ -20,6 +20,6 @@
 
 <p align="center">
   Applikasi Cek Khodam adalah alat interaktif yang memungkinkan Anda untuk memeriksa keberadaan dan jenis khodam yang mungkin menemani Anda. Dengan antarmuka yang ramah pengguna dan teknologi terkini dari Electron, aplikasi ini menawarkan pengalaman yang menghibur bagi para pengguna yang tertarik dengan dunia mistis.
-  Unduh versi terbaru dari aplikasi Cek Khodam (.exe) dari [situs resmi kami](#). Setelah diunduh, buka file .exe dan ikuti petunjuk instalasi yang muncul di layar. dan saya sebagai pengembang menerima kontribusi dari komunitas untuk meningkatkan aplikasi ini. Jika Anda tertarik untuk berkontribusi, silakan fork repository ini dan kirimkan pull request dengan perubahan yang Anda usulkan. Jika Anda menyukai aplikasi ini dan ingin mendukung pengembangan lebih lanjut <br>
+  Unduh versi terbaru dari aplikasi Cek Khodam (.exe) dari [situs resmi kami](#). Setelah diunduh, buka file .exe dan ikuti petunjuk instalasi yang muncul di layar. dan saya sebagai pengembang menerima kontribusi dari komunitas untuk meningkatkan aplikasi ini. Jika Anda tertarik untuk berkontribusi, silakan fork repository ini dan kirimkan pull request dengan perubahan yang Anda usulkan. <br>Jika Anda menyukai aplikasi ini dan ingin mendukung pengembangan lebih lanjut <br>
   anda bisa mendukung kami melalui <a href="https://trakteer.id/nch.dev">Trakteer</a>.
 </p>
