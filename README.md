@@ -13,7 +13,6 @@
 <div align="center">
   <a href="https://electronjs.org" target="_blank"><img src="https://img.shields.io/badge/Electron-v13.1.7-blue.svg?style=for-the-badge&logo=Electron&logoColor=ffffff" alt="electron"></a>
   <a href="https://nodejs.org" target="_blank"><img src="https://img.shields.io/badge/Node.js-%3E%3D10.0.0-green.svg?style=for-the-badge&logo=nodedotjs&logoColor=ffffff" alt="nodejs"></a>
-  <a href="https://trakteer.id/nch.dev" target="_blank"><img src="https://img.shields.io/badge/Trakteer-Support%20Me-red.svg?style=for-the-badge" alt="trakteer"></a>
 </div>
   
 <br>
